@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    /* background-color: aquamarine; */
+    height: 90px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .logo{
+    height: 90px;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+.container h1{
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+.container .list-difficulty{
+    align-self: center;
+}
