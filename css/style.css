@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    /* background-color: aquamarine; */
+    background-color: thistle;
     height: 90px;
 }
 
@@ -33,4 +33,35 @@ body{
 
 .container .list-difficulty{
     align-self: center;
+}
+
+.list-difficulty #list{
+    width: 150px;
+}
+
+.list-difficulty .btn-play{
+    width: 70px;
+}
+
+
+.main{
+    background-color: aquamarine;
+}
+
+.game-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0;
+    width: 500px;
+}
+
+.square{
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
