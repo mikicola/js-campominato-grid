@@ -17,7 +17,7 @@ function startGame() {
     if(level.value == 'Easy') {
         for (let i = 1; i <= 100; i++) {
              let square = document.createElement("div");
-            square.classList.add("square");
+            square.classList.add("square-easy");
             gameArea.append(square);
             square.innerHTML = i;
 
@@ -28,7 +28,7 @@ function startGame() {
     }else if (level.value == 'Medium') {
         for (let i = 1; i <= 81; i++) {
             let square = document.createElement("div");
-            square.classList.add("square");
+            square.classList.add("square-medium");
             gameArea.append(square);
             square.innerHTML = i;
 
@@ -38,7 +38,7 @@ function startGame() {
     }else if (level.value == 'Hard') {
         for (let i = 1; i <= 49; i++) {
             let square = document.createElement("div");
-            square.classList.add("square");
+            square.classList.add("square-hard");
             gameArea.append(square);
             square.innerHTML = i;
 
