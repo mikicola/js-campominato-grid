@@ -71,6 +71,12 @@ display: flex;
     align-items: center;
 }
 
+.square-selected-color{
+    background-color: rgb(0, 136, 91);
+    border: 1px solid black;
+    color: white;
+}
+
 footer{
     height: 50px;
     background-color: white;
